@@ -87,7 +87,10 @@ function initNode(ev) {
         .attr('data-type', type)
         .attr('id', type + '-' + id)
         .html(ev.dataTransfer.getData('content'));
-
+    newnode.append('div')
+        .attr('class', 'dot-up');
+    newnode.append('div')
+        .attr('class', 'dot-down');
 
     newnode.append('div')
         .attr('class', 'line-in')
