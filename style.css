@@ -1,0 +1,51 @@
+.list{
+    position: absolute;
+    left:0;
+}
+.list-item{
+    cursor:pointer;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    margin: 8px;
+    width: 140px;
+    height: 26px;
+    border: solid 1px #289DE9;
+    border-radius: 13px;
+}
+.drag-item{
+    position: absolute;
+    z-index: 2147483647;
+    cursor: move;
+}
+
+#chart{
+    display: flex;
+    flex-direction: row;
+}
+
+.svg-item{
+    cursor:pointer;
+    position: absolute;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    width: 140px;
+    height: 26px;
+    border: solid 1px #289DE9;
+    border-radius: 13px;
+}
+
+.line-in{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.line-out{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
